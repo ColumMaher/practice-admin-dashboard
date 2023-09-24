@@ -73,13 +73,18 @@ img {
 }
 .header-bottom{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     column-gap: 10px;
 }
 .header-bottom>img{
     justify-self: end;
+}
+.header-welcome{
+    justify-self: start;
+    display: flex;
+    flex-direction: column;
 }
 button{
     font-size: 24px;
